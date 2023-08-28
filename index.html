@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>delivery de comida</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&family=Open+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--sidebar-->
+    <div class="sidebar">
+        <!--Logo-->
+        <h1 class="logo">Delicious</h1>
+
+        <!--Lista de menu-->
+        <div class="sidebar-menus">
+            <a href="#"><ion-icon name="home-outline"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="receipt-outline"></ion-icon>Conta</a>
+            <a href="#"><ion-icon name="wallet-outline"></ion-icon>Carteira</a>
+            <a href="#"><ion-icon name="notifications-outline"></ion-icon>Notificação</a>
+            <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contato</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Configuração</a>
+        </div>
+        <!--Logout-->
+        <div class="sidebar-logout">
+            <a href=""><ion-icon name="log-out-outline"></ion-icon>Sair</a>
+        </div>
+    </div>
+
+    <!--main-->    
+    <div class="main">
+        <!--main navbar -->
+        <div class="main-navbar">
+            <!-- menu when appear on mobile version-->
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+            <!-- search bar-->
+            <div class="search">
+                <input type="text" placeholder="O que você deseja?">
+                <button class="search-btn">Buscar</button>
+            </div>
+            <!-- profile icon on left side of navbar -->
+            <div class="profile">
+                <a class="cart" href="#"><ion-icon name="cart-outline"></ion-icon></a>
+                <a class="user" href="#"><ion-icon name="person-outline"></ion-icon></a>
+            </div>
+        </div>
+        <!--main highlight -->
+        <div class="main-highlight">
+            <!-- title section and arrow -->
+            <div class="main-header">
+                <h2 class="main-title">Sugestão!</h2>
+                <div class="main-arrow">
+                    <ion-icon class="voltar" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="proximo" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+            </div>
+            <!-- highlight menu -->
+            <div class="highlight-wrapper">
+                <div class="highlight-card">
+                    <img class="highlight-img" src="img/cafe da manha.jpg">
+                    <div class="highlight-desc">
+                        <h4>Café-matinal</h4>
+                        <!--<h5>Com 10 pães de queijo, 2 pães de sal e 2 cafezinhos de 200mls</h5>-->
+                        <p>$9.90</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="img/bf1e20a4462b71e3cc4cece2a8c96ac8_XL.jpg">
+                    <div class="highlight-desc">
+                        <h4>Hamburguer</h4>
+                        <!--<h5>Com 10 pães de queijo, 2 pães de sal e 2 cafezinhos de 200mls</h5>-->
+                        <p>$29.90</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="img/carnes.jpg">
+                    <div class="highlight-desc">
+                        <h4>Carnes</h4>
+                        <!--<h5>Com 10 pães de queijo, 2 pães de sal e 2 cafezinhos de 200mls</h5>-->
+                        <p>$49.90</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="img/kisspng-french-fries-onion-ring-poutine-garlic-bread-recip-pasta-5abbb7acc66cf2.5897774415222516928128.png">
+                    <div class="highlight-desc">
+                        <h4>Pizzas</h4>
+                        <!--<h5>Com 10 pães de queijo, 2 pães de sal e 2 cafezinhos de 200mls</h5>-->
+                        <p>$19.90</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="img/vinhos.jpg">
+                    <div class="highlight-desc">
+                        <h4>vinhos</h4>
+                        <!--<h5>Com 10 pães de queijo, 2 pães de sal e 2 cafezinhos de 200mls</h5>-->
+                        <p>$9.90</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="img/pratos.jpg">
+                    <div class="highlight-desc">
+                        <h4>Pratos</h4>
+                        <!--<h5>Com 10 pães de queijo, 2 pães de sal e 2 cafezinhos de 200mls</h5>-->
+                        <p>$9.90</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--main menus / order -->
+    </div>
+</body>
+<!-- add ion icons -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
